@@ -56,7 +56,7 @@ fun AlarmsScreen(
                     ) {
                         FloatingActionButton(
                             onClick = {
-                                navController.navigate("AlarmDetails")
+                                navController.navigate("AlarmDetails/")
                             }, modifier = Modifier
 
                         ) {
